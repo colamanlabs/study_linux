@@ -28,5 +28,12 @@ cat: /sys/module/nvidia_drm/parameters/modeset: 허가 거부
 root@**********:/home/**********# 
 root@**********:/home/**********# cat /sys/module/nvidia_drm/parameters/modeset
 Y
-root@**********:/home/**********# 
+root@**********:/home/**********#
+
+
+[설정확인]
+gsettings get org.gnome.mutter experimental-features
+**********@**********:~$ gsettings get org.gnome.mutter experimental-features
+['x11-randr-fractional-scaling', 'kms-modifiers']
+**********@**********:~$ 
 ```
